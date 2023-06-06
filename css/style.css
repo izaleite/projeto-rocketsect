@@ -46,3 +46,31 @@ nav ul li a:hover {
   font-weight: 700;
   opacity: 1;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+
+  line-height: 40px;
+  text-align: center;
+}
+
+h1 span, main .text p span {
+  color: #00BFA6;
+  font-weight: 700;
+}
+
+main .text p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  color: #C2C2C2;
+}
